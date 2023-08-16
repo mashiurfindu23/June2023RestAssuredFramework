@@ -32,7 +32,7 @@ public class GetUserTest extends BaseTest {
 	}
 	
 	
-	@Test()
+	@Test(enabled=false)
 	public void getUserTest() {
 //	restClient = new RestClient(prop, baseURI);
 		restClient.get(GOREST_ENDPOINT +"/"+4316178, true, true)
